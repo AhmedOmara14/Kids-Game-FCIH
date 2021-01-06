@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:multimedia/model/arabicalphabet.dart';
 import 'package:video_player/video_player.dart';
 
-void main() => runApp(VideoPlayerApp(""));
 
 class VideoPlayerApp extends StatelessWidget {
   String link;
