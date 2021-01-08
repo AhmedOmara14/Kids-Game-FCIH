@@ -54,8 +54,8 @@ flutter:
   assets:
     - assets/langs/en.json
     - assets/langs/ar.json
-    - Images/
     - assets/
+    - Images/
 
   #   - images/a_dot_ham.jpeg
 

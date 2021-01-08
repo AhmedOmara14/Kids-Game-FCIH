@@ -76,7 +76,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   Color.fromRGBO(138, 35, 135,1.0),
                   Color.fromRGBO(233, 64, 78, 1.0),
                   Color.fromRGBO(242, 113, 33, 1.0),
-                ])),),
+                ]
+              )),),
 
           Center(
             child: Column(
