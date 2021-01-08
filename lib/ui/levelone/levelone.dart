@@ -14,6 +14,7 @@ class levelone extends StatelessWidget {
 
 Widget _levelone(BuildContext context) {
   List<arabicalphabet> list = new List();
+
   list.add(new arabicalphabet(1, translator.translate('q'),
       "https://firebasestorage.googleapis.com/v0/b/video-64558.appspot.com/o/videos%2F%D8%AD%D8%B1%D9%81%20%D8%A3.mp4?alt=media&token=a5722f1a-4413-476f-9a0e-ba1f6a67cb64"));
   list.add(new arabicalphabet(2, translator.translate('w'),
@@ -70,9 +71,7 @@ Widget _levelone(BuildContext context) {
       "https://firebasestorage.googleapis.com/v0/b/video-64558.appspot.com/o/videos%2F%D8%AD%D8%B1%D9%81%20%D9%88.mp4?alt=media&token=7dae2127-5be1-47b1-850a-31aecec9707f"));
   list.add(new arabicalphabet(28, translator.translate('bb'),
       "https://firebasestorage.googleapis.com/v0/b/video-64558.appspot.com/o/videos%2F%D8%AD%D8%B1%D9%81%20%D9%8A.mp4?alt=media&token=9e259797-35eb-40f2-bd4d-cafa044b8544"));
-  return
-
-    ListView.builder(
+  return ListView.builder(
     itemCount: list.length,
     itemBuilder: (context, index) {
       return Card(
